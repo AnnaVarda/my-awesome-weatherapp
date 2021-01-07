@@ -9,7 +9,6 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    align-content: center;
   }
   
   .card-body {
@@ -84,7 +83,7 @@
 
   .sources {
     font-size: x-small;
-    text-align: center;
+    text-align:justify;
   }
   
   #discription {
