@@ -1,0 +1,119 @@
+.card {
+    position: relative;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+  }
+  
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+  
+  .today {
+    color: #fff;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+    text-align: left;
+  }
+  
+  .temperature {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+    position: relative;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .degrees {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .fahrenheit {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .tempunits {
+    font-size: 20px;
+    position: relative;
+    top: -38px;
+    left: -20px;
+    text-align: left;
+  }
+  
+  .lowHighTemperature {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: -25px;
+    left: -60px;
+  }
+  
+  .fa-temperature-low {
+    color: green;
+  }
+  
+  .fa-temperature-high {
+    color: red;
+  }
+  
+  .row {
+    position: relative;
+    left: -15px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  #discription {
+    color: #fff;
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: "Lora", serif;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+    bottom: -10px;
+    right: -8px;
+  }
+  
+  ul {
+    position: relative;
+    bottom: -30px;
+    right: -60px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  footer {
+    text-align: center;
+    position: relative;
+    right: -25px;
+  }
+  
+  button {
+    background: #8064e9;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+  
