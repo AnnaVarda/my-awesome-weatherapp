@@ -80,6 +80,11 @@
     padding-left: calc(var(--bs-gutter-x) / 2);
     margin-top: var(--bs-gutter-y);
   }
+
+  .sources {
+    font-size: x-small;
+    text-align: center;
+  }
   
   #discription {
     color: #fff;
