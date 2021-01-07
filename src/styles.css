@@ -9,7 +9,7 @@
     background-clip: border-box;
     border: 1px solid #00000020;
     border-radius: 0.25rem;
-    align-self: center;
+    margin-left: 200px;
   }
   
   .card-body {
