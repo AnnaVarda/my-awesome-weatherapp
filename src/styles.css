@@ -38,15 +38,21 @@
   
   .degrees {
     color: black;
+    cursor: default;
     text-decoration: none;
   }
-  
-  .fahrenheit {
+
+  .degrees:hover {
     color: black;
     text-decoration: none;
   }
   
+  .fahrenheit {
+    text-decoration: none;
+  }
+  
   .tempunits {
+    
     font-size: 20px;
     position: relative;
     top: -38px;
